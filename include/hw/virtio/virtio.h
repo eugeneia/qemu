@@ -39,7 +39,7 @@ static inline hwaddr vring_align(hwaddr addr,
 
 typedef struct VirtQueue VirtQueue;
 
-#define VIRTQUEUE_MAX_SIZE 1024
+#define VIRTQUEUE_MAX_SIZE 8192
 
 typedef struct VirtQueueElement
 {
